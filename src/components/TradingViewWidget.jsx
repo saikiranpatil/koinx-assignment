@@ -11,8 +11,7 @@ const TradingViewWidget = () => {
       script.async = true;
       script.innerHTML = `
         {
-          "width": "980",
-          "height": "610",
+          "height": "400",
           "symbol": "NASDAQ:AAPL",
           "interval": "D",
           "timezone": "Etc/UTC",
@@ -32,7 +31,7 @@ const TradingViewWidget = () => {
   );
 
   return (
-    <div className="tradingview-widget-container bg-white" ref={container}>
+    <div className="tradingview-widget-container p-2" ref={container}>
       <div className="tradingview-widget-container__widget"></div>
     </div>
   );

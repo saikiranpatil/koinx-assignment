@@ -1,10 +1,12 @@
-import TradingViewWidget from "./components/TradingViewWidget"
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <>
-      <TradingViewWidget />
-    </>
+    <div className="bg-black-3 w-full overflow-hidden pb-8">
+      <Navbar />
+      <Hero />
+    </div>
   )
 }
 
