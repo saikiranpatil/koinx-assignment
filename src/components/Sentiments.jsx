@@ -8,8 +8,8 @@ const Sentiments = () => {
             <span id="fundamentals" className="text-[18px] text-black-8 font-semibold flex items-center gap-1 mb-4">
                 Key Events <IoInformationCircle className="text-black-7" />
             </span>
-            <div className="flex gap-4 overflow-x-auto mb-4">
-                <div className="flex p-4 gap-4 w-[450px] bg-primary-2/50 rounded-lg">
+            <div className="flex gap-4 sm:flex-row flex-col mb-4">
+                <div className="flex p-4 gap-4 bg-primary-2/50 w-[400px] rounded-lg">
                     <div>
                         <div className="bg-primary-5 p-2 rounded-full">
                             <IoNewspaper size={30} color="#fff" />
@@ -17,14 +17,14 @@ const Sentiments = () => {
                     </div>
                     <div className="flex flex-col gap-2 text-[12px]">
                         <h2 className="font-semibold">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum error nostrum consequatur nam nulla harum!
+                            Lorem ipsum dolor sit amet, Laborum error nostrum consequatur nam nulla harum!
                         </h2>
                         <div>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident eaque cumque dolores autem minima deleniti eveniet odit nam, magni aliquid facilis numquam minus reprehenderit inventore est rerum dignissimos dolor id, accusamus maxime quibusdam dicta sunt!
+                            Lorem ipsum dolor, eaque cumque dolores autem minima deleniti eveniet odit nam, quibusdam dicta sunt!
                         </div>
                     </div>
                 </div>
-                <div className="flex p-4 gap-4 w-[450px] bg-success-2/50 rounded-lg">
+                <div className="flex p-4 gap-4 bg-success-2/50 w-[400px] rounded-lg">
                     <div>
                         <div className="bg-success-5 p-2 rounded-full">
                             <IoTrendingUp size={30} color="#fff" />
@@ -32,10 +32,10 @@ const Sentiments = () => {
                     </div>
                     <div className="flex flex-col gap-2 text-[12px]">
                         <h2 className="font-semibold">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum error nostrum consequatur nam nulla harum!
+                            Lorem ipsum dolor sit amet, Laborum error nostrum consequatur nam nulla harum!
                         </h2>
                         <div>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident eaque cumque dolores autem minima deleniti eveniet odit nam, magni aliquid facilis numquam minus reprehenderit inventore est rerum dignissimos dolor id, accusamus maxime quibusdam dicta sunt!
+                            Lorem ipsum dolor, eaque cumque dolores autem minima deleniti eveniet odit nam, quibusdam dicta sunt!
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Sentiments = () => {
                     <div className="flex flex-1 items-center justify-between gap-4">
                         <span>Sell</span>
                         <div className="w-[250px] flex gap-2 items-center">
-                            <div className="h-2 bg-warning-5 w-[15%] rounded-sm"></div> 
+                            <div className="h-2 bg-warning-5 w-[15%] rounded-sm"></div>
                             <span>16%</span>
                         </div>
                     </div>

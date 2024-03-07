@@ -27,8 +27,8 @@ const About = () => {
             </div>
             <div className="border-b-2 pb-4 mb-4">
                 <h2 className='font-semibold mb-2 text-[24px]'>Already holding Bitcoin?</h2>
-                <div className="flex gap-4">
-                    <div className="flex gap-8 bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-lg max-w-[400px]">
+                <div className="flex gap-4 overflow-x-auto pb-2">
+                    <div className="flex gap-8 bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-lg min-w-[400px]">
                         <img src={hero1} alt="calculate asset" className='h-32  rounded-lg' />
                         <div className="flex flex-col justify-around">
                             <h1 className="font-bold text-[24px] text-white">
@@ -41,7 +41,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex gap-8 bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-lg max-w-[400px]">
+                    <div className="flex gap-8 bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-lg min-w-[400px]">
                         <img src={hero2} alt="calculate asset" className='h-32  rounded-lg' />
                         <div className="flex flex-col justify-around">
                             <h1 className="font-bold text-[24px] text-white">

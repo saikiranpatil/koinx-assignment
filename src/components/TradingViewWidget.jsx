@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useRef } from 'react'
+import { memo, useEffect, useRef } from 'react'
 
 const TradingViewWidget = () => {
   const container = useRef();
@@ -12,7 +12,7 @@ const TradingViewWidget = () => {
       script.innerHTML = `
         {
           "height": "400",
-          "symbol": "NASDAQ:AAPL",
+          "symbol": "BTCUSD",
           "interval": "D",
           "timezone": "Etc/UTC",
           "theme": "light",
