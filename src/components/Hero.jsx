@@ -3,19 +3,21 @@ import Breadcrum from "./Breadcrum";
 import HeroNavbar from "./HeroNavbar";
 
 import styles from "../style";
+import Overview from "./Overview";
 
 const Hero = () => {
     return (
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col">
+            <Breadcrum />
             <div className={`${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <Breadcrum />
                     <Chart />
                 </div>
             </div>
             <div className={`${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
                     <HeroNavbar />
+                    <Overview />
                 </div>
             </div>
         </div>

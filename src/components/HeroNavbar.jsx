@@ -8,8 +8,8 @@ const HeroNavbar = () => {
     return (
         <nav className={`${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
-                <div className="w-full flex justify-between items-center border-b-[1px] border-black-6">
-                    <ul className="list-none flex items-center flex-1">
+                <div className="w-full flex justify-between items-center border-b-[1px] border-black-6 my-6">
+                    <ul className="list-none flex items-center flex-1 overflow-x-auto">
                         {heroNavLinks.map((navLink, index) => (
                             <li
                                 key={navLink.id}
