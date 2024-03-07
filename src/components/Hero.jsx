@@ -6,6 +6,9 @@ import HeroNavbar from "./HeroNavbar";
 import Overview from "./Overview";
 import Sentiments from "./Sentiments";
 import About from "./About";
+import Tokenomics from "./Tokenomics";
+import Teams from "./Teams";
+import CTA from "./CTA";
 
 const Hero = () => {
     return (
@@ -13,15 +16,21 @@ const Hero = () => {
             <Breadcrum />
             <div className={`${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <Chart />
-                </div>
-            </div>
-            <div className={`${styles.paddingX} ${styles.flexStart}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <HeroNavbar />
-                    <Overview />
-                    <Sentiments />
-                    <About />
+                    <div className="grid grid-cols-[70%_30%] gap-6">
+                        <div>
+                            <Chart />
+                            <HeroNavbar />
+                            <Overview />
+                            <Sentiments />
+                            <About />
+                            <Tokenomics />
+                            <Teams />
+                        </div>
+                        <div>
+                            <CTA />
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
