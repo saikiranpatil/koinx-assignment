@@ -1,7 +1,8 @@
 import styles from '../style'
 import ChangeButton from './ChangeButton'
 
-const Trending = ({trendingCoinData}) => {
+const Trending = ({ trendingCoinData }) => {
+    trendingCoinData = trendingCoinData.slice(0, 3);
     return (
         <div id="trending" className={`bg-white rounded-lg ${styles.padding} px-2 my-4`}>
             <h1 className="font-semibold text-black-10 mb-4">Trending Coins (24h)</h1>
