@@ -9,9 +9,9 @@ const Sentiments = () => {
                 Key Events <IoInformationCircle className="text-black-7" />
             </span>
             <div className="flex gap-4 sm:flex-row flex-col mb-4">
-                <div className="flex p-4 gap-4 bg-primary-2/50 w-[400px] rounded-lg">
-                    <div>
-                        <div className="bg-primary-5 p-2 rounded-full">
+                <div className="flex sm:flex-row flex-col p-4 gap-4 bg-primary-2/50 rounded-lg">
+                    <div className="flex">
+                        <div className="bg-primary-5 p-2 h-[46px] rounded-full">
                             <IoNewspaper size={30} color="#fff" />
                         </div>
                     </div>
@@ -24,9 +24,9 @@ const Sentiments = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex p-4 gap-4 bg-success-2/50 w-[400px] rounded-lg">
-                    <div>
-                        <div className="bg-success-5 p-2 rounded-full">
+                <div className="flex sm:flex-row flex-col p-4 gap-4 bg-success-2/50 rounded-lg">
+                    <div className="flex">
+                        <div className="bg-success-5 p-2 h-[46px] rounded-full">
                             <IoTrendingUp size={30} color="#fff" />
                         </div>
                     </div>
