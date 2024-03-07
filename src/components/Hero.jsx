@@ -16,7 +16,7 @@ const Hero = () => {
             <Breadcrum />
             <div className={`${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <div className="grid grid-cols-[70%_30%] gap-6">
+                    <div className="grid sm:grid-cols-[70%_30%] grid-cols-1 gap-6">
                         <div>
                             <Chart />
                             <HeroNavbar />
