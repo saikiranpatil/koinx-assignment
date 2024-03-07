@@ -1,9 +1,11 @@
+import styles from "../style";
+
 import Chart from "./Chart";
 import Breadcrum from "./Breadcrum";
 import HeroNavbar from "./HeroNavbar";
-
-import styles from "../style";
 import Overview from "./Overview";
+import Sentiments from "./Sentiments";
+import About from "./About";
 
 const Hero = () => {
     return (
@@ -18,6 +20,8 @@ const Hero = () => {
                 <div className={`${styles.boxWidth}`}>
                     <HeroNavbar />
                     <Overview />
+                    <Sentiments />
+                    <About />
                 </div>
             </div>
         </div>

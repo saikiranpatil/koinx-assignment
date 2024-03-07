@@ -4,7 +4,7 @@ import { IoInformationCircle } from "react-icons/io5";
 
 const Overview = () => {
     return (
-        <div id="overview" className={`bg-white rounded-lg ${styles.padding}`}>
+        <div id="overview" className={`bg-white rounded-lg ${styles.padding} my-4`}>
             <h1 className="font-semibold text-[24px] text-black-10 mb-4">Performance</h1>
             <div className={`${styles.flexCenter} py-6`}>
                 <div className="flex-col gap-2">
